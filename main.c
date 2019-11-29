@@ -16,7 +16,8 @@ void mallocinput();
 
 int main() {
 
-     mallocinput();
+     //mallocinput();
+    hello();
 
     return 0;
 }
