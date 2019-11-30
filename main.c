@@ -14,10 +14,20 @@ void squareIt1(int * const input);
 void passByReferencemalloc();
 void mallocinput();
 
+char* sayIt(char *input) {
+    char *s = NULL;
+    s = (char *)malloc(100);
+    sprintf(s, "Name is %s, len is %d", input, strlen(input));
+    free(s);
+    return s;
+}
+
 int main() {
 
      //mallocinput();
-    hello();
+    //hello();
+    printf(sayIt("aaaaaa"));
+
 
     return 0;
 }
