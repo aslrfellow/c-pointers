@@ -80,6 +80,7 @@ pointers_EXTERNAL_OBJECTS =
 pointers: CMakeFiles/pointers.dir/main.c.o
 pointers: CMakeFiles/pointers.dir/build.make
 pointers: /Users/oketo/CLionProjects/bolib/cmake-build-debug/libbolib.dylib
+pointers: /usr/local/lib/libcurl.dylib
 pointers: CMakeFiles/pointers.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oketo/CLionProjects/pointers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable pointers"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pointers.dir/link.txt --verbose=$(VERBOSE)

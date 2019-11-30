@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk 
 
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = -I/usr/local/include/curl 
 

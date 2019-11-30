@@ -13,4 +13,8 @@ string.h
 -
 stdlib.h
 -
+stdio.h
+-
+curl/curl.h
+-
 
